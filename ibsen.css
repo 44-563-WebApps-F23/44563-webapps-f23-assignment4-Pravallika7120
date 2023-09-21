@@ -46,3 +46,71 @@
 
     border:dashed;
 }
+
+table{
+
+    width: 100%;
+
+    border:2px solid;
+
+}
+
+th{
+
+   border:4px solid;
+
+    color:brown;
+
+    text-align: center;    
+
+    margin:auto;
+
+}
+
+table, th{
+
+    border:2px solid;
+
+    border-collapse: collapse;
+
+}
+
+th{
+
+    color:gray;
+
+}
+
+td{
+
+     border:2px solid;
+
+    border-top:2px solid;
+
+    border-bottom:2px solid;
+
+}
+
+tr{
+
+    border:3px solid ;
+
+    border-style:dotted;
+
+    text-align: center;
+
+    margin: auto;
+
+    padding: 2%;
+
+    color:lightblue;
+
+   
+
+}
+
+tr:nth-child(odd){
+
+    border-radius: 2%;
+
+}
